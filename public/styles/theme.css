@@ -1,0 +1,25 @@
+@layer theme {
+  /* Primitive variables */
+  :root {
+    --clb-blue: oklch(0.55 0.17 259.85 / 1);
+    --clb-pink: oklch(0.67 0.2 17.35 / 1);
+    --clb-red: oklch(0.63 0.22 25.92 / 1);
+    --clb-yellow: oklch(0.76 0.16 57.71 / 1);
+    --clb-green: oklch(0.68 0.15 153.9 / 1);
+    --clb-black: oklch(0 0 0 / 1);
+    --clb-white: oklch(1 0 0 / 1);
+    --clb-gray: oklch(0.55 0.02 265.86 / 1);
+  }
+
+  /* Semantic variables */
+  :root {
+    --clb-primary: var(--clb-pink);
+    --clb-secondary: var(--clb-gray);
+    --clb-success: var(--clb-green);
+    --clb-info: var(--clb-blue);
+    --clb-warning: var(--clb-yellow);
+    --clb-danger: var(--clb-red);
+    --clb-light: var(--clb-white);
+    --clb-dark: var(--clb-black);
+  }
+}
