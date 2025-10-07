@@ -21,5 +21,13 @@
     --clb-danger: var(--clb-red);
     --clb-light: var(--clb-white);
     --clb-dark: var(--clb-black);
+
+    --container-xs: 46rem; /* 736px */
+    --container-sm: 64rem; /* 1024px */
+    --container-md: 80rem; /* 1280px */
+    --container-lg: 96rem; /* 1536px */
+
+    --container-gutter-min: 16px;
+    --container-gutter-max: 32px;
   }
 }
