@@ -1,0 +1,11 @@
+@layer layout {
+  body {
+    display: grid;
+    grid-template-rows: minmax(60px, auto) 1fr auto;
+    min-block-size: 100vh;
+  }
+
+  main {
+    flex: 1;
+  }
+}
