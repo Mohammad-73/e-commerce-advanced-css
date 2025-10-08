@@ -10,7 +10,6 @@
   }
 
   :where(.container) {
-    background-color: gray;
     max-inline-size: var(--container-md);
     margin-inline: auto;
     padding-inline: clamp(

@@ -9,6 +9,17 @@
     --clb-black: oklch(0 0 0 / 1);
     --clb-white: oklch(1 0 0 / 1);
     --clb-gray: oklch(0.55 0.02 265.86 / 1);
+
+    --font-scale-sm: 0.875;
+    --font-scale-md: 1;
+    --font-scale-lg: 1.125;
+    --font-scale-xl: 1.3125;
+    --font-scale-xxl: 1.625;
+    --font-scale-3xl: 2;
+
+    --font-size-base-min: calc(1rem * var(--font-scale-sm));
+    --font-size-base-mid: calc(1rem * var(--font-scale-md));
+    --font-size-base-max: calc(1rem * var(--font-scale-lg));
   }
 
   /* Semantic variables */
@@ -29,5 +40,16 @@
 
     --container-gutter-min: 16px;
     --container-gutter-max: 32px;
+
+    --font-size-base: var(--font-size-base-min);
+
+    --font-sm: calc(var(--font-size-base) * var(--font-scale-sm));
+    --font-md: calc(var(--font-size-base) * var(--font-scale-md));
+    --font-lg: calc(var(--font-size-base) * var(--font-scale-lg));
+    --font-xl: calc(var(--font-size-base) * var(--font-scale-xl));
+    --font-xxl: calc(var(--font-size-base) * var(--font-scale-xxl));
+    --font-3xl: calc(var(--font-size-base) * var(--font-scale-3xl));
+
+    --font-yekanbakh: "yekanbakh";
   }
 }
